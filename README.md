@@ -1,7 +1,43 @@
-# note_libevent
+# Libevent 
 
- ./configure --enable-debug-mode --enable-static --enable-thread-support --prefix=/home/hcl0589/libevent
 
-gcc -g -o hw.o -I ~/libevent/include/ -L ~/libevent/lib/ hello-world.c -levent
+## what  
 
-## epoll 两种触发模式 水平触发和边缘触发
+- (http://www.wangafu.net/~nickm/libevent-2.1/doxygen/html/)
+
+## how
+
+- (http://www.wangafu.net/~nickm/libevent-book/)
+
+## why
+
+* 几种网络I/O模式
+
+
+* 网络协议栈（SKB）
+
+
+* select/epoll 
+
+
+* reactor模型
+
+
+* libevent 
+
+
+* bufferevent
+
+
+* libevent 定时器
+
+
+
+
+
+
+# configure note
+
+ ./configure --enable-debug-mode --enable-static --enable-thread-support --prefix=~/libevent
+
+gcc -g -o a.out -I ~/libevent/include/ -L ~/libevent/lib/ hello-world.c -levent

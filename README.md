@@ -3,11 +3,11 @@
 
 ## what  
 
-- (http://www.wangafu.net/~nickm/libevent-2.1/doxygen/html/)
+- [libevent 官网介绍](http://www.wangafu.net/~nickm/libevent-2.1/doxygen/html/)
 
 ## how
 
-- (http://www.wangafu.net/~nickm/libevent-book/)
+- [libevent 学习教程](http://www.wangafu.net/~nickm/libevent-book/)
 
 ## why
 

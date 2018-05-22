@@ -36,7 +36,8 @@
 
 
 
-# configure note
+
+### tips 
 
  ./configure --enable-debug-mode --enable-static --enable-thread-support --prefix=~/libevent
 

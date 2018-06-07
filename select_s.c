@@ -1,3 +1,4 @@
+// man 2 select
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
@@ -17,7 +18,7 @@ int main(void)
 
     /* Wait up to five seconds. */
 
-    tv.tv_sec = 0;
+    tv.tv_sec = 5;
     tv.tv_usec = 0;
 
     retval = select(1, &rfds, NULL, NULL, &tv);
